@@ -4,7 +4,7 @@ titel: Start
 permalink: /
 menue_position: 1
 im_menue: true
-beschreibung: Mike Sokol – Abteilungsleiter E-Management, Gebäudetechnik-Ingenieur, Unternehmer und Offizier aus Hildisrieden.
+beschreibung: Mike Sokol – Abteilungsleiter E-Management, Geschäftsleiter, Unternehmer und Offizier aus Hildisrieden.
 kopf_titel: Mike Sokol
 untertitel: Jung, dynamisch & für Sie da
 kopf_bild: /img/portrait.jpg
@@ -21,14 +21,14 @@ kopf_fakten: Jahrgang 1999 · wohnhaft in Hildisrieden · BSc Gebäudetechnik ·
 abschnitte:
   - titel: Auf einen Blick
     text: |
-      Von der Lehre als Elektroinstallateur EFZ über den Bachelor in Gebäudetechnik bis zur Leitung einer eigenen Abteilung: Mein Weg verbindet praktisches Fachwissen, analytisches Denken und Führungserfahrung aus Beruf und Militär.
+      Vom Elektroinstallateur über die Berufsmaturität und den Bachelor in Gebäudetechnik zum Abteilungsleiter im Energiebereich und Unternehmer. Dazu kommen Führungserfahrung als Offizier der Schweizer Armee und eine Weiterbildung in Leadership an der Universität Luzern.
     karten:
       - titel: Beruf
-        text: Abteilungsleiter E-Management bei der SyEnergy AG – Energiesystem-Gesamtkonzepte von PV über Speicher bis E-Mobilität.
+        text: Abteilungsleiter E-Management bei der SyEnergy AG und Geschäftsleiter der MMedics GmbH.
         knopf_text: Zur Laufbahn
         knopf_link: /laufbahn/
       - titel: Militär
-        text: Oberleutnant und Kommandant-Stellvertreter, ausgebildet in der Offiziersschule und in der Führungsausbildung der SKO.
+        text: Oberleutnant und Kommandant-Stellvertreter, ausgebildet in der Offiziersschule und im Company Level Leadership Course der Höheren Kaderausbildung der Armee.
         knopf_text: Zum Militär
         knopf_link: /militaer/
       - titel: Schwerpunkte

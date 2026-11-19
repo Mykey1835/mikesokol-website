@@ -24,10 +24,21 @@ abschnitte:
         text: Zugführer mit 44 Unterstellten, Wangen
       - zeit: "WK"
         text: Transportoffizier bei den Richtstrahlpionieren
+      - zeit: "2026"
+        text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
       - zeit: "heute"
         text: Kommandant-Stellvertreter, Oberleutnant
     bild: /img/marsch.jpg
     bild_text: Meine Klasse der Offiziersschule auf dem 100-km-Marsch – die ersten 50 km durfte ich die Karte lesen.
     bild_2: /img/zug.jpg
     bild_2_text: Mein Zug und ich am letzten Tag der RS meiner Rekruten
+  - titel: Grade
+    hintergrund: grau
+    stationen:
+      - zeit: "08.2020 – 01.2021"
+        text: Wachtmeister
+      - zeit: "02.2021 – 04.2025"
+        text: Leutnant
+      - zeit: "seit 04.2025"
+        text: Oberleutnant
 ---

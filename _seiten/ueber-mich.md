@@ -16,24 +16,38 @@ abschnitte:
   - titel: Sprachen
     hintergrund: grau
     text: |
-      Deutsch ist meine Muttersprache. Meinen russischen und ukrainischen Wurzeln verdanke ich fliessende Kenntnisse in Russisch und Ukrainisch.
+      Deutsch ist meine Muttersprache. Meinen russischen und ukrainischen Wurzeln verdanke ich zudem Kenntnisse in Russisch und Ukrainisch.
     # niveau: A1, A2, B1, B2, C1, C2 oder Muttersprache
     sprachen:
       - sprache: Deutsch
         niveau: Muttersprache
       - sprache: Russisch
-        niveau: C1
-        hinweis: fliessend
+        niveau: B2
       - sprache: Ukrainisch
-        niveau: C1
-        hinweis: fliessend
+        niveau: A2
       - sprache: Englisch
         niveau: B2
         hinweis: sehr gute Kenntnisse in Wort und Schrift
       - sprache: Französisch
-        niveau: A2
-        hinweis: gute Kenntnisse in Wort und Schrift
+        niveau: A1
+        hinweis: Grundkenntnisse
+  - titel: Fachkenntnisse
+    # niveau: Anfänger, Grundkenntnisse, Fortgeschritten, Sehr gut oder Experte
+    kenntnisse:
+      - name: Leadership
+        niveau: Sehr gut
+      - name: Projektmanagement
+        niveau: Sehr gut
+      - name: Problemanalyse
+        niveau: Sehr gut
+      - name: Konfliktmanagement
+        niveau: Fortgeschritten
+      - name: Automatisierung
+        niveau: Fortgeschritten
+      - name: Ethik
+        niveau: Fortgeschritten
   - titel: IT-Kenntnisse
+    hintergrund: grau
     # niveau: Anfänger, Grundkenntnisse, Fortgeschritten, Sehr gut oder Experte
     kenntnisse:
       - name: MS Office
@@ -43,9 +57,8 @@ abschnitte:
       - name: Abacus
         niveau: Grundkenntnisse
       - name: Claude (KI-Assistent)
-        niveau: Grundkenntnisse
+        niveau: Fortgeschritten
   - titel: Vereine und Ämter
-    hintergrund: grau
     text: |
       - Offiziersgesellschaft Luzern (SOLOG), seit 2022
       - Abschlussklasse Gebäudetechnik 2025, Mitglied

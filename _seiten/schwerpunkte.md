@@ -22,6 +22,7 @@ abschnitte:
         text: |
           - BSc in Gebäudetechnik (Gebäude-Elektroengineering)
           - CAS in Decisive Leadership, Universität Luzern
+          - Company Level Leadership Course, Höhere Kaderausbildung der Armee
           - Fachperson Äusserer Blitzschutz, VKF
           - Abgeschlossene Lehre als Elektroinstallateur EFZ
           - Technische Berufsmaturität

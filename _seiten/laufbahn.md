@@ -8,13 +8,13 @@ beschreibung: Beruflicher Werdegang, Aus- und Weiterbildung von Mike Sokol.
 abschnitte:
   - titel: Mein Weg
     text: |
-      Nach der Sekundarschule absolvierte ich eine Lehre als Elektroinstallateur EFZ bei der Maréchaux Elektro AG und war danach bis Ende 2018 als Elektroinstallateur tätig. Kaum volljährig, gründete ich meine erste Firma, die ForceTechTrading GmbH, die sich mit internationalem Handel befasst.
+      Nach der Sekundarschule absolvierte ich eine Lehre als Elektroinstallateur EFZ bei der Maréchaux Elektro AG und war danach bis Ende 2021 in Teilzeit als Elektroinstallateur tätig. Kaum volljährig, gründete ich meine erste Firma, die ForceTechTrading GmbH, die sich mit internationalem Handel befasst.
 
       Zwischen Rekrutenschule und Unteroffiziersschule erlangte ich die Technische Berufsmaturität am BBZB Luzern. In dieser Zeit habe ich das Haus meiner Mutter umgebaut und war in Planung und Ausführung aktiv.
 
-      Von 2022 bis 2025 studierte ich Gebäudetechnik mit dem Studiengang Gebäude-Elektroengineering an der Hochschule in Horw (Technik & Architektur) und schloss mit dem Bachelor of Science ab. Während des Studiums gründete ich die AS Projects GmbH, in der verschiedene, meist blockchainbasierte Projektideen umgesetzt werden.
+      Von 2022 bis 2025 studierte ich Gebäudetechnik mit dem Studiengang Gebäude-Elektroengineering an der Hochschule Luzern (HSLU) in Horw und schloss mit dem Bachelor of Science ab. Während des Studiums gründete ich die AS Projects GmbH, in der verschiedene, meist blockchainbasierte Projektideen umgesetzt werden.
 
-      Im September 2024 startete ich als Projektleiter Energiesysteme bei der SyEnergy AG. Seit Juni 2025 leite ich dort die Abteilung E-Management, die ich mit aufbauen durfte.
+      Im September 2024 startete ich als Projektleiter Energiesysteme bei der SyEnergy AG. Seit Juni 2025 leite ich dort die Abteilung E-Management, die ich mit aufbauen durfte. Seit März 2023 bin ich zudem Geschäftsleiter der MMedics GmbH.
 
       Seit 2016 beschäftige ich mich intensiv mit Kryptowährungen und Blockchain-Technologie und habe mir auf diesem Gebiet fundiertes Know-how angeeignet.
     bild: /img/studiengang.jpg
@@ -22,13 +22,17 @@ abschnitte:
   - titel: Beruflicher Ablauf
     hintergrund: grau
     ablauf:
-      - zeit: "08.2018 – 12.2018"
+      - zeit: "08.2018 – 12.2021"
         titel: Elektroinstallateur EFZ
-        ort: Maréchaux Elektro AG, Kriens
+        ort: Maréchaux Elektro AG, Kriens · Teilzeit
         text: |
           - Stark- und Schwachstrominstallationen sowie Serviceaufträge
           - Mitwirkung in Umbauprojekten, u. a. Umbau Coop Pilatusmarkt Kriens und Umbau eines Einfamilienhauses in Kastanienbaum
           - Selbstständige Ausführung von Arbeiten zur vollen Zufriedenheit von Vorgesetzten und Kunden
+      - zeit: "seit 03.2023"
+        titel: Geschäftsleiter
+        ort: MMedics GmbH, Müllheim TG
+        art: heute
       - zeit: "07.2023"
         titel: Praktikum
         ort: Hefti Hess Martignoni, Zug
@@ -43,7 +47,7 @@ abschnitte:
         art: Praktikum
       - zeit: "09.2024 – 06.2025"
         titel: Projektleiter Energiesysteme
-        ort: SyEnergy AG, Sarnen
+        ort: SyEnergy AG, Sarnen · Teilzeit
         text: |
           - Energiesystem-Gesamtkonzepte: PV-Anlagen, Speicherlösungen (Batterie, Wasserstoff) und Verbraucher wie HLKS, Produktion und E-Mobilität
           - Umsetzung von Projekten wie «Energiesystem Eichli» (Speicherung, Produktion und Verbrauch von Eigenenergie) und «Energiesystem Mettelacher» (72 h Notstrom und Energiekontingentierung für 15 Wohnungen) sowie diverser Projekte von CHF 80'000 bis CHF 2.5 Mio.
@@ -62,15 +66,17 @@ abschnitte:
   - titel: Aus- und Weiterbildung
     stationen:
       - zeit: "03.2026 – 04.2026"
-        text: CAS in Decisive Leadership, Universität Luzern
+        text: CAS in Decisive Leadership, Economics, Universität Luzern
+      - zeit: "2026"
+        text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
       - zeit: "04.2025 – 06.2025"
         text: Fachperson Äusserer Blitzschutz, VKF
       - zeit: "02.2022 – 07.2025"
-        text: BSc in Gebäudetechnik, Studiengang Gebäude-Elektroengineering, Technik & Architektur, Horw
+        text: BSc in Gebäudetechnik, Studiengang Gebäude-Elektroengineering, Hochschule Luzern (HSLU)
       - zeit: "08.2020 – 02.2022"
         text: Militär – Unteroffiziers- und Offiziersschule mit Führungsausbildung der SKO
       - zeit: "08.2019 – 07.2020"
-        text: Technische Berufsmaturität, BBZB Luzern
+        text: Technische Berufsmaturität, Berufsbildungszentrum Bau und Gewerbe (BBZB), Luzern
       - zeit: "08.2014 – 08.2018"
         text: Lehre als Elektroinstallateur EFZ, Maréchaux Elektro AG, Luzern
       - zeit: "08.2011 – 06.2014"
