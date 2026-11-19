@@ -1,0 +1,54 @@
+{% assign a = include.a %}
+<section{% if a.hintergrund == "grau" %} class="alt"{% endif %}>
+  <div class="wrap">
+    {% capture inhalt %}
+      {% if a.titel %}<h2>{{ a.titel }}</h2>{% endif %}
+      {% if a.text %}<div class="text">{{ a.text | markdownify }}</div>{% endif %}
+      {% if a.stationen %}
+      <ul class="timeline">
+        {% for st in a.stationen %}<li><span class="when">{{ st.zeit }}</span>{{ st.text }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if a.stichworte %}
+      <ul class="tags">
+        {% for w in a.stichworte %}<li>{{ w }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if a.knopf_text and a.knopf_link %}<p><a class="btn" href="{{ a.knopf_link | relative_url }}">{{ a.knopf_text }}</a></p>{% endif %}
+    {% endcapture %}
+
+    {% if a.bild %}
+    <div class="split{% if a.bild_seite == 'links' %} rev{% endif %}">
+      <div class="col-text">{{ inhalt }}</div>
+      <div class="stack">
+        <figure>
+          <img src="{{ a.bild | relative_url }}" alt="{{ a.bild_text | default: a.titel }}" loading="lazy">
+          {% if a.bild_text %}<figcaption>{{ a.bild_text }}</figcaption>{% endif %}
+        </figure>
+        {% if a.bild_2 %}
+        <figure>
+          <img src="{{ a.bild_2 | relative_url }}" alt="{{ a.bild_2_text | default: a.titel }}" loading="lazy">
+          {% if a.bild_2_text %}<figcaption>{{ a.bild_2_text }}</figcaption>{% endif %}
+        </figure>
+        {% endif %}
+      </div>
+    </div>
+    {% else %}
+      <div class="full">{{ inhalt }}</div>
+    {% endif %}
+
+    {% if a.karten %}
+    <div class="cards">
+      {% for k in a.karten %}{% unless k.sichtbar == false %}
+      <div class="card">
+        {% if k.titel %}<h3>{{ k.titel }}</h3>{% endif %}
+        {% if k.zeit %}<p class="when">{{ k.zeit }}</p>{% endif %}
+        {{ k.text | markdownify }}
+        {% if k.knopf_text and k.knopf_link %}<a class="btn" href="{{ k.knopf_link }}"{% if k.knopf_link contains "://" %} target="_blank" rel="noopener"{% endif %}>{{ k.knopf_text }}</a>{% endif %}
+      </div>
+      {% endunless %}{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>

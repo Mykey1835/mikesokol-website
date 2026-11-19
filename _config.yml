@@ -1,0 +1,16 @@
+title: Mike Sokol
+lang: de-CH
+url: https://mikesokol.ch
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: ["sbquo", "lsquo", "bdquo", "ldquo"]
+
+collections:
+  seiten:
+    output: true
+    permalink: /:name/
+
+exclude:
+  - README.md

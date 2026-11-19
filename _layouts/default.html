@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% assign e = site.data.einstellungen %}
+{% if page.permalink == "/" %}{% assign voller_titel = e.name %}{% else %}{% assign voller_titel = page.titel | append: " – " | append: e.name %}{% endif %}
+<title>{{ voller_titel }}</title>
+<meta name="description" content="{{ page.beschreibung }}">
+<meta property="og:title" content="{{ voller_titel }}">
+<meta property="og:description" content="{{ page.beschreibung }}">
+<meta property="og:image" content="{{ site.url }}/img/portrait.jpg">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ e.name | upcase }}</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="tabs">Menü</button>
+    <nav aria-label="Hauptnavigation">
+      <ul class="tabs" id="tabs">
+        {% assign menue = site.seiten | where: "im_menue", true | sort: "menue_position" %}
+        {% for s in menue %}
+        <li><a href="{{ s.url | relative_url }}"{% if s.url == page.url %} aria-current="page"{% endif %}>{{ s.titel }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+{% if page.kopf_bild %}
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>{{ page.kopf_titel | default: page.titel }}</h1>
+      {% if page.untertitel %}<p class="tagline">{{ page.untertitel }}</p>{% endif %}
+      {{ page.kopf_text | markdownify }}
+      {% if page.kopf_fakten %}<p class="facts">{{ page.kopf_fakten }}</p>{% endif %}
+    </div>
+    <img src="{{ page.kopf_bild | relative_url }}" alt="{{ page.kopf_bild_text | default: e.name }}">
+  </div>
+</div>
+{% else %}
+<div class="pagehead">
+  <div class="wrap">
+    <h1>{{ page.titel }}</h1>
+    {% if page.untertitel %}<p>{{ page.untertitel }}</p>{% endif %}
+  </div>
+</div>
+{% endif %}
+
+{% for a in page.abschnitte %}
+  {% unless a.sichtbar == false %}{% include abschnitt.html a=a %}{% endunless %}
+{% endfor %}
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>{{ e.fusszeile }}</span>
+    <span>{% if e.linkedin %}<a href="{{ e.linkedin }}" target="_blank" rel="noopener">LinkedIn</a> · {% endif %}Keine Cookies, kein Tracking</span>
+  </div>
+</footer>
+
+<script>
+  var b = document.querySelector('.menu-btn'), t = document.getElementById('tabs');
+  b.addEventListener('click', function () {
+    var o = t.classList.toggle('open'); b.setAttribute('aria-expanded', o);
+  });
+</script>
+</body>
+</html>
