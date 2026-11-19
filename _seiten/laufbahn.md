@@ -8,7 +8,7 @@ beschreibung: Beruflicher Werdegang, Aus- und Weiterbildung von Mike Sokol.
 abschnitte:
   - titel: Mein Weg
     text: |
-      Nach der Sekundarschule absolvierte ich eine Lehre als Elektroinstallateur EFZ bei der Maréchaux Electro AG und war danach bis Ende 2018 als Elektroinstallateur tätig. Kaum volljährig, gründete ich meine erste Firma, die ForceTechTrading GmbH, die sich mit internationalem Handel befasst.
+      Nach der Sekundarschule absolvierte ich eine Lehre als Elektroinstallateur EFZ bei der Maréchaux Elektro AG und war danach bis Ende 2018 als Elektroinstallateur tätig. Kaum volljährig, gründete ich meine erste Firma, die ForceTechTrading GmbH, die sich mit internationalem Handel befasst.
 
       Zwischen Rekrutenschule und Unteroffiziersschule erlangte ich die Technische Berufsmaturität am BBZB Luzern. In dieser Zeit habe ich das Haus meiner Mutter umgebaut und war in Planung und Ausführung aktiv.
 
@@ -38,7 +38,7 @@ abschnitte:
           - Definition und Umsetzung von Energielösungen sowie Planungsunterlagen nach gesetzlichen Vorschriften und Normen
           - Selbstständige technische Abklärungen
       - titel: Elektroinstallateur EFZ
-        zeit: "08.2018 – 12.2018 · Maréchaux Electro AG, Kriens"
+        zeit: "08.2018 – 12.2018 · Maréchaux Elektro AG, Kriens"
         text: |
           - Stark- und Schwachstrominstallationen sowie Serviceaufträge
           - Mitwirkung in Umbauprojekten, u. a. Umbau Coop Pilatusmarkt Kriens und Umbau eines Einfamilienhauses in Kastanienbaum
@@ -65,7 +65,7 @@ abschnitte:
       - zeit: "08.2019 – 07.2020"
         text: Technische Berufsmaturität, BBZB Luzern
       - zeit: "08.2014 – 08.2018"
-        text: Lehre als Elektroinstallateur EFZ, Maréchaux Electro AG, Luzern
+        text: Lehre als Elektroinstallateur EFZ, Maréchaux Elektro AG, Luzern
       - zeit: "08.2011 – 06.2014"
         text: Sekundarschule, Horw
       - zeit: "08.2005 – 06.2011"

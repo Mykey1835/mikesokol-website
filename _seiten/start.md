@@ -4,7 +4,7 @@ titel: Start
 permalink: /
 menue_position: 1
 im_menue: true
-beschreibung: Mike Sokol – Abteilungsleiter E-Management, Gebäudetechnik-Ingenieur, Unternehmer und Offizier aus Horw.
+beschreibung: Mike Sokol – Abteilungsleiter E-Management, Gebäudetechnik-Ingenieur, Unternehmer und Offizier aus Hildisrieden.
 kopf_titel: Mike Sokol
 untertitel: Jung, dynamisch & für Sie da
 kopf_bild: /img/portrait.jpg
@@ -17,7 +17,7 @@ kopf_text: |
   Ich bin mir meiner Talente bewusst, bin mir aber auch nicht zu schade, kräftig zuzupacken – im wahrsten Sinne des Wortes und mit der nötigen Überzeugungskraft, wenn es darum geht, Leader zu sein.
 
   Mein Ziel ist es, meine Fähigkeiten gewinnbringend einzusetzen und mich dabei kontinuierlich weiterzuentwickeln.
-kopf_fakten: Jahrgang 1999 · wohnhaft in Horw · BSc Gebäudetechnik · Abteilungsleiter E-Management · Oberleutnant
+kopf_fakten: Jahrgang 1999 · wohnhaft in Hildisrieden · BSc Gebäudetechnik · Abteilungsleiter E-Management · Oberleutnant
 abschnitte:
   - titel: Auf einen Blick
     text: |

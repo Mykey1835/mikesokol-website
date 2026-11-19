@@ -8,7 +8,7 @@ beschreibung: Herkunft, Sprachen und Vereine von Mike Sokol.
 abschnitte:
   - titel: Persönlich
     text: |
-      Ich bin im schönen Nidwalden geboren, zog im Alter von drei Jahren in die Stadt Luzern und später in die Gemeinde Horw, wo ich noch heute wohne. Ich bin Schweizer Staatsbürger und besitze den Führerausweis der Kategorien B, CE und D1E.
+      Ich bin im schönen Nidwalden geboren, zog im Alter von drei Jahren in die Stadt Luzern und später in die Gemeinde Horw, wo ich aufgewachsen bin. Heute wohne ich in Hildisrieden. Ich bin Schweizer Staatsbürger und besitze den Führerausweis der Kategorien B, CE und D1E.
 
       Einsatzbereitschaft beweise ich nicht nur im beruflichen Umfeld, sondern auch beim Sport. So bin ich seit mehreren Jahren Mitglied im Skiclub Horw, Aktivmitglied des Pistolenclubs Horw und Mitglied der Offiziersgesellschaft der Zentralschweiz (SOLOG).
     bild: /img/abschluss.jpg
