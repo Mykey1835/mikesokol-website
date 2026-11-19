@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mike Sokol</title>
+<meta name="description" content="Mike Sokol – Projektleiter Energiesysteme, Gebäudetechnik, Unternehmer und Offizier aus Horw.">
+<meta property="og:title" content="Mike Sokol">
+<meta property="og:description" content="Jung, dynamisch &amp; für Sie da.">
+<meta property="og:image" content="https://mikesokol.ch/img/portrait.jpg">
+<link rel="canonical" href="https://mikesokol.ch/">
+<style>
+  :root {
+    --graphit: #2E3338;
+    --neben: #5C6166;
+    --linie: #D9DCDF;
+    --hell: #F2F2F2;
+    --weiss: #FFFFFF;
+    --max: 1080px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--weiss);
+    color: var(--graphit);
+    font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+  /* Navigation */
+  header.nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(255,255,255,.96);
+    border-bottom: 1px solid var(--linie);
+    backdrop-filter: blur(6px);
+  }
+  header.nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+  .brand { font-weight: 700; letter-spacing: .04em; text-decoration: none; }
+  nav a { text-decoration: none; margin-left: 22px; font-size: 15px; color: var(--neben); }
+  nav a:hover { color: var(--graphit); }
+
+  /* Hero */
+  .hero { background: var(--graphit); color: var(--weiss); }
+  .hero .wrap { display: grid; grid-template-columns: 1.3fr 1fr; gap: 56px; align-items: center; padding-top: 72px; padding-bottom: 72px; }
+  .hero h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.1; margin: 0 0 8px; font-weight: 700; }
+  .hero .tagline { font-size: 20px; margin: 0 0 28px; opacity: .85; }
+  .hero p { margin: 0 0 16px; opacity: .92; }
+  .hero .facts { margin-top: 26px; font-size: 15px; opacity: .75; letter-spacing: .02em; }
+  .hero img { width: 100%; max-width: 340px; justify-self: end; border-radius: 4px; }
+
+  /* Sections */
+  section { padding: 80px 0; border-bottom: 1px solid var(--linie); }
+  section.alt { background: var(--hell); }
+  h2 { font-size: 30px; margin: 0 0 40px; font-weight: 700; }
+  h2::after { content: ""; display: block; width: 48px; height: 3px; background: var(--graphit); margin-top: 14px; }
+  h3 { font-size: 19px; margin: 0 0 12px; font-weight: 700; }
+  p { margin: 0 0 16px; }
+
+  .split { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: start; margin-bottom: 64px; }
+  .split:last-child { margin-bottom: 0; }
+  .split.rev { grid-template-columns: 1fr 1.4fr; }
+  .split.rev .text { order: 2; }
+  figure { margin: 0; }
+  figure img { width: 100%; border-radius: 4px; }
+  figcaption { font-size: 14px; color: var(--neben); margin-top: 8px; }
+  .stack { display: grid; gap: 24px; }
+
+  .timeline { list-style: none; padding: 0; margin: 24px 0 0; border-left: 2px solid var(--linie); }
+  .timeline li { position: relative; padding: 0 0 14px 22px; }
+  .timeline li::before { content: ""; position: absolute; left: -6px; top: 9px; width: 10px; height: 10px; border-radius: 50%; background: var(--graphit); }
+  .timeline .when { font-size: 14px; color: var(--neben); display: block; }
+
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .card { background: var(--weiss); border: 1px solid var(--linie); border-radius: 4px; padding: 28px; }
+  .card ul { margin: 0; padding-left: 18px; }
+  .card li { margin-bottom: 8px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 8px 0 0; list-style: none; }
+  .tags li { border: 1px solid var(--graphit); border-radius: 99px; padding: 4px 14px; font-size: 15px; }
+
+  .contact { background: var(--graphit); color: var(--weiss); border: 0; }
+  .contact h2::after { background: var(--weiss); }
+  .contact .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 32px; }
+  .contact .box { border: 1px solid rgba(255,255,255,.25); border-radius: 4px; padding: 24px; }
+  .contact .box p { opacity: .85; margin: 0; }
+  .contact .lead { max-width: 640px; font-size: 19px; }
+
+  footer { padding: 28px 0; font-size: 14px; color: var(--neben); }
+
+  @media (max-width: 820px) {
+    body { font-size: 16px; }
+    nav { display: none; }
+    .hero .wrap, .split, .split.rev, .cards, .contact .grid { grid-template-columns: 1fr; gap: 32px; }
+    .split.rev .text { order: 0; }
+    .hero img { justify-self: start; max-width: 260px; }
+    section { padding: 56px 0; }
+    .wrap { padding: 0 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">MIKE SOKOL</a>
+    <nav>
+      <a href="#ueber-mich">Über mich</a>
+      <a href="#schwerpunkte">Schwerpunkte</a>
+      <a href="#vereine">Vereine</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Mike Sokol</h1>
+      <p class="tagline">Jung, dynamisch &amp; für Sie da</p>
+      <p>Es gibt keine zweite Chance für den ersten Eindruck. Schön, dass Sie sich die Zeit nehmen, zu erfahren, welches Potenzial in mir steckt.</p>
+      <p>Ich bin unkonventionell konventionell. Konventionell im Sinne von Ausbildung, Arbeitsbereitschaft und Begabungen, unkonventionell betreffend Herkunft, Lösungsorientiertheit und dem unbändigen Ehrgeiz, meinem Gegenüber zu beweisen, dass es die richtige Wahl getroffen hat.</p>
+      <p>Ich bin mir meiner Talente bewusst, bin mir aber auch nicht zu schade, kräftig zuzupacken – im wahrsten Sinne des Wortes und mit der nötigen Überzeugungskraft, wenn es darum geht, Leader zu sein.</p>
+      <p>Mein Ziel ist es, meine Fähigkeiten gewinnbringend einzusetzen und mich dabei kontinuierlich weiterzuentwickeln.</p>
+      <p class="facts">Jahrgang 1999 · wohnhaft in Horw · Projektleiter Energiesysteme · Oberleutnant</p>
+    </div>
+    <img src="img/portrait.jpg" alt="Porträt von Mike Sokol" width="356" height="541">
+  </div>
+</div>
+
+<section id="ueber-mich">
+  <div class="wrap">
+    <h2>Über mich</h2>
+
+    <div class="split">
+      <div class="text">
+        <h3>Persönlich</h3>
+        <p>Ich bin im schönen Nidwalden geboren, zog im Alter von drei Jahren in die Stadt Luzern und später in die Gemeinde Horw, wo ich noch heute wohne. Ich bin Schweizer Staatsbürger und besitze den Führerausweis der Kategorien B, CE und D1E.</p>
+        <p>Einsatzbereitschaft beweise ich nicht nur im beruflichen Umfeld, sondern auch beim Sport. So bin ich seit mehreren Jahren Mitglied im Skiclub Horw, Aktivmitglied des Pistolenclubs Horw und Mitglied der Offiziersgesellschaft der Zentralschweiz (SOLOG).</p>
+        <p>Meinen russischen und ukrainischen Wurzeln verdanke ich meine fliessenden Sprachkenntnisse in Russisch und Ukrainisch. Meine Umgangssprache ist Deutsch, zudem spreche und schreibe ich Englisch (B1/B2) und Französisch (A2).</p>
+      </div>
+      <figure>
+        <img src="img/abschluss.jpg" alt="Mike Sokol im Anzug am Tisch" width="781" height="521" loading="lazy">
+        <figcaption>Abschlussfoto im Studium</figcaption>
+      </figure>
+    </div>
+
+    <div class="split rev">
+      <div class="text">
+        <h3>Beruf und Ausbildung</h3>
+        <p>Nach dem Sekundarabschluss absolvierte ich eine Lehre als Elektroinstallateur EFZ bei der Maréchaux Elektro AG in Luzern und war danach noch bis Ende 2018 dort tätig. Kaum volljährig, gründete ich meine erste Firma, die ForceTechTrading GmbH, die sich mit internationalem Handel befasst.</p>
+        <p>Zwischen Rekrutenschule und Unteroffiziersschule erlangte ich die Technische Berufsmaturität am BBZB Luzern. In dieser Zeit habe ich das Haus meiner Mutter umgebaut und war in Planung und Ausführung aktiv.</p>
+        <p>Um meine Persönlichkeit weiterzuentwickeln, begann ich 2022 das Bachelorstudium in Gebäudetechnik (Fachrichtung Elektro) am Technikum Horw. Während des Studiums gründete ich die AS Projects GmbH, in der verschiedene, meist blockchainbasierte Projektideen umgesetzt werden.</p>
+        <p>Seit September 2024 bin ich Projektleiter Energiesysteme bei der SyEnergy AG in Sarnen. Schon nach kurzer Zeit erhielt ich die Chance, die Abteilung E-Management aufzubauen und zu leiten.</p>
+        <p>Seit 2016 beschäftige ich mich intensiv mit Kryptowährungen und Blockchain-Technologie und habe mir auf diesem Gebiet fundiertes Know-how angeeignet.</p>
+        <ul class="timeline">
+          <li><span class="when">08.2014 – 08.2018</span>Lehre Elektroinstallateur EFZ, Maréchaux Elektro AG, Luzern</li>
+          <li><span class="when">08.2019 – 07.2020</span>Technische Berufsmaturität, BBZB Luzern</li>
+          <li><span class="when">ab 02.2022</span>Bachelorstudium Gebäudetechnik (Elektro), Technikum Horw</li>
+          <li><span class="when">07.2023 – 08.2023 und 08.2024 – 09.2024</span>Praktika bei HHM Zug</li>
+          <li><span class="when">seit 09.2024</span>Projektleiter Energiesysteme, SyEnergy AG, Sarnen</li>
+        </ul>
+      </div>
+      <figure>
+        <img src="img/studiengang.jpg" alt="Gruppenfoto des Studiengangs" width="902" height="601" loading="lazy">
+        <figcaption>Mein Studiengang (HLKS 21 Personen und GEE 8 Personen)</figcaption>
+      </figure>
+    </div>
+
+    <div class="split">
+      <div class="text">
+        <h3>Militär</h3>
+        <p>Nach der Lehre absolvierte ich die Rekrutenschule als Motorfahrer in Frauenfeld (01.2019 – 05.2019) und wurde für eine Kaderposition vorgeschlagen. Nach der Berufsmaturität folgten die Unteroffiziersschule (08.2020 – 12.2020) und die Offiziersschule in Bern (03.2021 – 02.2022), wo ich nach 15 Wochen zum Leutnant befördert wurde.</p>
+        <p>Im praktischen Dienst in Wangen führte ich meinen Zug mit 44 Unterstellten. Im WK war ich zu Beginn bei den Richtstrahlpionieren als Transportoffizier eingeteilt. Nach zwei WK wurde ich zum Kommandant-Stellvertreter ernannt und gleichzeitig zum Oberleutnant befördert.</p>
+      </div>
+      <div class="stack">
+        <figure>
+          <img src="img/marsch.jpg" alt="Offiziersschüler auf dem 100-km-Marsch" width="785" height="747" loading="lazy">
+          <figcaption>Meine Klasse der Offiziersschule auf dem 100-km-Marsch – die ersten 50 km durfte ich die Karte lesen.</figcaption>
+        </figure>
+        <figure>
+          <img src="img/zug.jpg" alt="Zug vor Militärlastwagen" width="1003" height="669" loading="lazy">
+          <figcaption>Mein Zug und ich am letzten Tag der RS meiner Rekruten</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="schwerpunkte" class="alt">
+  <div class="wrap">
+    <h2>Schwerpunkte</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Qualifikationen</h3>
+        <ul>
+          <li>Führungsausbildung in Theorie und Praxis: Selbst-, Sozial-, Konflikt- und Kommunikationsmanagement sowie Führen von Gruppen und Führungspersonen</li>
+          <li>Fachwissen in Blockchain-Technologie, Kryptowährungen, NFTs und Metaverse</li>
+          <li>Verschiedene Englischkurse mit Diplom</li>
+          <li>Vielseitige Erfahrung am Bau: Elektro, Planung, Design, Innenarchitektur, Raumaufteilung</li>
+          <li>Abgeschlossene Lehre als Elektroinstallateur EFZ</li>
+          <li>Technische Berufsmaturität</li>
+          <li>Präsentationsexperte</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Persönliche Eigenschaften</h3>
+        <ul>
+          <li>Selbstständig und zuverlässig</li>
+          <li>Belastbar und flexibel</li>
+          <li>Teamfähig</li>
+          <li>Helfe anderen, besser zu werden</li>
+          <li>Lösungsorientiert, prozessoptimierende Denkweise</li>
+          <li>Offen für Neues, bereit zur Weiterbildung</li>
+          <li>Ein Leader</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Stärken und Ziele</h3>
+        <p>Meine Stärke ist es, alles so zu optimieren, dass mit minimalem Aufwand der maximale Ertrag entsteht. Ich bringe die Menschen in meinem Umfeld weiter – ein typischer Querdenker, der dennoch den klassischen Werdegang geht.</p>
+        <p>Für meine berufliche Zukunft wünsche ich mir eine Aufgabe, die mir Freude bereitet, mir entspricht und in der ich meine Stärken, Fähigkeiten und Erfahrungen einbringen kann. Ich möchte Verantwortung übernehmen und Herausforderungen in meinem Bereich erfolgreich meistern.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px">Meine Interessen</h3>
+    <ul class="tags">
+      <li>Mein Job</li>
+      <li>Kryptowährungen</li>
+      <li>NFT</li>
+      <li>Aktien und Investitionsmöglichkeiten</li>
+    </ul>
+  </div>
+</section>
+
+<section id="vereine">
+  <div class="wrap">
+    <h2>Vereine</h2>
+    <div class="split">
+      <div class="text">
+        <h3>Mitgliedschaften</h3>
+        <ul class="timeline">
+          <li><span class="when">seit 2008</span>Tennisclub Horw</li>
+          <li><span class="when">seit 2010</span>Skiclub Horw</li>
+          <li><span class="when">seit 2020</span>Offiziersgesellschaft der Zentralschweiz (SOLOG)</li>
+          <li><span class="when">Aktivmitglied</span>Pistolenclub Horw</li>
+          <li><span class="when">Mitglied</span>Abschlussklasse Gebäudetechnik 2025</li>
+        </ul>
+        <h3 style="margin-top:32px">Ämter</h3>
+        <p>Vereinsrevisor der Abschlussklasse Gebäudetechnik 2025</p>
+      </div>
+      <figure>
+        <img src="img/freizeit.jpg" alt="Mike Sokol in der Freizeit am See" width="591" height="788" loading="lazy">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" class="contact">
+  <div class="wrap">
+    <h2>Kontakt</h2>
+    <p class="lead">Treten Sie gerne mit mir in Kontakt. Ich freue mich auf den Austausch mit Ihnen.</p>
+    <div class="grid">
+      <div class="box">
+        <h3>Persönlich</h3>
+        <p>[Mike: E-Mail-Adresse einsetzen]</p>
+      </div>
+      <div class="box">
+        <h3>AS Projects GmbH</h3>
+        <p>Bei Fragen zu Blockchain-Projekten (NFT, Metaverse) oder zu Kryptowährungen wenden Sie sich am besten direkt an die AS Projects GmbH.</p>
+      </div>
+      <div class="box">
+        <h3>MMedics GmbH</h3>
+        <p>Bei Fragen zu Grosshandel oder alternativmedizinischen Produkten wenden Sie sich gerne an die MMedics GmbH.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Mike Sokol · Horw · Diese Seite verwendet keine Cookies und kein Tracking.</div>
+</footer>
+
+</body>
+</html>
