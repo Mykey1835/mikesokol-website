@@ -1,0 +1,18 @@
+{% comment %}
+  Balkenanzeige für Sprachen (Stufen A1–C2, «Muttersprache» = voll)
+  und Kenntnisse (Stufen Anfänger bis Experte).
+  Jeder Eintrag: name (oder sprache), niveau, hinweis (freiwillig).
+{% endcomment %}
+{% assign stufen = include.stufen | split: "," %}
+{% assign n = stufen | size %}
+<div class="sprachen">
+  <div class="skala" aria-hidden="true"><span></span><div class="stufen" style="grid-template-columns: repeat({{ n }}, 1fr)">{% for st in stufen %}<span>{{ st }}</span>{% endfor %}</div></div>
+  {% for e in include.eintraege %}{% unless e.sichtbar == false %}
+  {% assign name = e.name | default: e.sprache %}
+  {% if e.niveau == "Muttersprache" %}{% assign wert = n %}{% else %}{% assign wert = 0 %}{% for st in stufen %}{% if st == e.niveau %}{% assign wert = forloop.index %}{% endif %}{% endfor %}{% endif %}
+  <div class="sprache">
+    <div class="name"><strong>{{ name }}</strong><span>{{ e.niveau }}{% if e.hinweis %} · {{ e.hinweis }}{% endif %}</span></div>
+    <div class="balken" style="grid-template-columns: repeat({{ n }}, 1fr)" role="img" aria-label="{{ name }}: {{ e.niveau }}">{% for st in stufen %}<span{% if forloop.index <= wert %} class="voll"{% endif %}></span>{% endfor %}</div>
+  </div>
+  {% endunless %}{% endfor %}
+</div>

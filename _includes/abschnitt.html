@@ -10,19 +10,8 @@
         {% endfor %}
       </ul>
       {% endif %}
-      {% if a.sprachen %}
-      {% assign stufen = "A1,A2,B1,B2,C1,C2" | split: "," %}
-      <div class="sprachen">
-        <div class="skala" aria-hidden="true"><span></span><div class="stufen">{% for st in stufen %}<span>{{ st }}</span>{% endfor %}</div></div>
-        {% for sp in a.sprachen %}
-        {% if sp.niveau == "Muttersprache" %}{% assign wert = 6 %}{% else %}{% assign wert = 0 %}{% for st in stufen %}{% if st == sp.niveau %}{% assign wert = forloop.index %}{% endif %}{% endfor %}{% endif %}
-        <div class="sprache">
-          <div class="name"><strong>{{ sp.sprache }}</strong><span>{{ sp.niveau }}{% if sp.hinweis %} · {{ sp.hinweis }}{% endif %}</span></div>
-          <div class="balken" role="img" aria-label="{{ sp.sprache }}: {{ sp.niveau }}">{% for st in stufen %}<span{% if forloop.index <= wert %} class="voll"{% endif %}></span>{% endfor %}</div>
-        </div>
-        {% endfor %}
-      </div>
-      {% endif %}
+      {% if a.sprachen %}{% include balken.html eintraege=a.sprachen stufen="A1,A2,B1,B2,C1,C2" %}{% endif %}
+      {% if a.kenntnisse %}{% include balken.html eintraege=a.kenntnisse stufen="Anfänger,Grundkenntnisse,Fortgeschritten,Sehr gut,Experte" %}{% endif %}
       {% if a.stichworte %}
       <ul class="tags">
         {% for w in a.stichworte %}<li>{{ w }}</li>{% endfor %}

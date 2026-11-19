@@ -1,7 +1,7 @@
 ---
 layout: default
 titel: Über mich
-untertitel: Herkunft, Sprachen und Vereine
+untertitel: Herkunft, Sprachen, Kenntnisse und Vereine
 menue_position: 2
 im_menue: true
 beschreibung: Herkunft, Sprachen und Vereine von Mike Sokol.
@@ -33,13 +33,19 @@ abschnitte:
       - sprache: Französisch
         niveau: A2
         hinweis: gute Kenntnisse in Wort und Schrift
-    karten:
-      - titel: IT-Kenntnisse
-        text: |
-          - Abacus
-          - Bexio
-          - MS Office
+  - titel: IT-Kenntnisse
+    # niveau: Anfänger, Grundkenntnisse, Fortgeschritten, Sehr gut oder Experte
+    kenntnisse:
+      - name: MS Office
+        niveau: Sehr gut
+      - name: Bexio
+        niveau: Sehr gut
+      - name: Abacus
+        niveau: Grundkenntnisse
+      - name: Claude (KI-Assistent)
+        niveau: Grundkenntnisse
   - titel: Vereine und Ämter
+    hintergrund: grau
     text: |
       - Offiziersgesellschaft Luzern (SOLOG), seit 2022
       - Abschlussklasse Gebäudetechnik 2025, Mitglied
