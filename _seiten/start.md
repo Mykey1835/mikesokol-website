@@ -35,7 +35,9 @@ abschnitte:
         text: Führung, Energiesysteme und Gebäudetechnik, Blockchain-Technologie und Kryptowährungen.
         knopf_text: Zu den Schwerpunkten
         knopf_link: /schwerpunkte/
+  # Ausgeblendet: «sichtbar: true» setzen, um ihn wieder anzuzeigen.
   - titel: Meine Interessen
+    sichtbar: false
     hintergrund: grau
     stichworte:
       - Mein Job

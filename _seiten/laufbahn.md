@@ -19,40 +19,47 @@ abschnitte:
       Seit 2016 beschäftige ich mich intensiv mit Kryptowährungen und Blockchain-Technologie und habe mir auf diesem Gebiet fundiertes Know-how angeeignet.
     bild: /img/studiengang.jpg
     bild_text: Mein Studiengang (HLKS 21 Personen und GEE 8 Personen)
-  - titel: Berufliche Tätigkeiten
+  - titel: Beruflicher Ablauf
     hintergrund: grau
-    karten:
-      - titel: Abteilungsleiter E-Management
-        zeit: "seit 06.2025 · SyEnergy AG, Stans"
+    ablauf:
+      - zeit: "08.2018 – 12.2018"
+        titel: Elektroinstallateur EFZ
+        ort: Maréchaux Elektro AG, Kriens
+        text: |
+          - Stark- und Schwachstrominstallationen sowie Serviceaufträge
+          - Mitwirkung in Umbauprojekten, u. a. Umbau Coop Pilatusmarkt Kriens und Umbau eines Einfamilienhauses in Kastanienbaum
+          - Selbstständige Ausführung von Arbeiten zur vollen Zufriedenheit von Vorgesetzten und Kunden
+      - zeit: "07.2023"
+        titel: Praktikum
+        ort: Hefti Hess Martignoni, Zug
+        art: Praktikum
+      - zeit: "06.2024"
+        titel: Praktikum
+        ort: Inlo AG, Horw
+        art: Praktikum
+      - zeit: "07.2024"
+        titel: Praktikum
+        ort: Hefti Hess Martignoni, Zug
+        art: Praktikum
+      - zeit: "09.2024 – 06.2025"
+        titel: Projektleiter Energiesysteme
+        ort: SyEnergy AG, Sarnen
+        text: |
+          - Energiesystem-Gesamtkonzepte: PV-Anlagen, Speicherlösungen (Batterie, Wasserstoff) und Verbraucher wie HLKS, Produktion und E-Mobilität
+          - Umsetzung von Projekten wie «Energiesystem Eichli» (Speicherung, Produktion und Verbrauch von Eigenenergie) und «Energiesystem Mettelacher» (72 h Notstrom und Energiekontingentierung für 15 Wohnungen) sowie diverser Projekte von CHF 80'000 bis CHF 2.5 Mio.
+          - Definition und Umsetzung von Energielösungen sowie Planungsunterlagen nach gesetzlichen Vorschriften und Normen
+          - Selbstständige technische Abklärungen
+      - zeit: "seit 06.2025"
+        titel: Abteilungsleiter E-Management
+        ort: SyEnergy AG, Stans
+        art: heute
         text: |
           - Fachliche und organisatorische Führung eines vierköpfigen Teams inkl. Personal-, Auslastungs- und Kostencontrolling der Projekte
           - Operative Steuerung der Abteilung: Projektübersicht, Prozessstrukturen und Unterstützung des Teams
           - Entwicklung und Umsetzung von Abteilungszielen mit regelmässiger Berichterstattung (Quartalsberichte) an die Geschäftsleitung
           - Mitwirkung bei Angeboten, Ausschreibungen und Lieferantenvergleichen sowie Sicherstellung der gesetzlichen, normativen und sicherheitsrelevanten Vorgaben
           - Energiesystem-Gesamtkonzepte inkl. Energiemanagement, Fördergeldanträgen und Weiterentwicklung neuer Geschäftsfelder
-      - titel: Projektleiter Energiesysteme
-        zeit: "09.2024 – 06.2025 · SyEnergy AG, Sarnen"
-        text: |
-          - Energiesystem-Gesamtkonzepte: PV-Anlagen, Speicherlösungen (Batterie, Wasserstoff) und Verbraucher wie HLKS, Produktion und E-Mobilität
-          - Umsetzung von Projekten wie «Energiesystem Eichli» (Speicherung, Produktion und Verbrauch von Eigenenergie) und «Energiesystem Mettelacher» (72 h Notstrom und Energiekontingentierung für 15 Wohnungen) sowie diverser Projekte von CHF 80'000 bis CHF 2.5 Mio.
-          - Definition und Umsetzung von Energielösungen sowie Planungsunterlagen nach gesetzlichen Vorschriften und Normen
-          - Selbstständige technische Abklärungen
-      - titel: Elektroinstallateur EFZ
-        zeit: "08.2018 – 12.2018 · Maréchaux Elektro AG, Kriens"
-        text: |
-          - Stark- und Schwachstrominstallationen sowie Serviceaufträge
-          - Mitwirkung in Umbauprojekten, u. a. Umbau Coop Pilatusmarkt Kriens und Umbau eines Einfamilienhauses in Kastanienbaum
-          - Selbstständige Ausführung von Arbeiten zur vollen Zufriedenheit von Vorgesetzten und Kunden
-  - titel: Praktika
-    stationen:
-      - zeit: "07.2024"
-        text: Praktikum bei Hefti Hess Martignoni, Zug
-      - zeit: "06.2024"
-        text: Praktikum bei der Inlo AG, Horw
-      - zeit: "07.2023"
-        text: Praktikum bei Hefti Hess Martignoni, Zug
   - titel: Aus- und Weiterbildung
-    hintergrund: grau
     stationen:
       - zeit: "03.2026 – 04.2026"
         text: CAS in Decisive Leadership, Universität Luzern

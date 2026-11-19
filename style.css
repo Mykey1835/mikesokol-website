@@ -123,3 +123,45 @@ footer a { color: var(--neben); }
   .hero img { justify-self: start; max-width: 260px; }
   section, .pagehead { padding: 48px 0; }
 }
+
+/* Sprachbalken */
+.sprachen { margin: 8px 0 8px; max-width: 760px; }
+.sprache, .skala { display: grid; grid-template-columns: 1fr 1.2fr; gap: 20px; align-items: center; }
+.sprache { padding: 12px 0; border-bottom: 1px solid var(--linie); }
+.sprache .name strong { display: block; }
+.sprache .name span { font-size: 14px; color: var(--neben); }
+.balken { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; }
+.balken span { height: 12px; border-radius: 2px; background: var(--linie); }
+.balken span.voll { background: var(--graphit); }
+.skala { font-size: 12px; color: var(--neben); padding-bottom: 4px; }
+.skala .stufen { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; text-align: center; }
+
+/* Ablauf */
+.ablauf { list-style: none; margin: 8px 0 0; padding: 0; position: relative; }
+.ablauf::before { content: ""; position: absolute; left: 150px; top: 8px; bottom: 8px; width: 2px; background: var(--linie); }
+.ablauf li { display: grid; grid-template-columns: 130px 1fr; gap: 44px; position: relative; padding-bottom: 28px; }
+.ablauf li:last-child { padding-bottom: 0; }
+.ablauf li::before { content: ""; position: absolute; left: 144px; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: var(--weiss); border: 3px solid var(--graphit); box-sizing: border-box; }
+.ablauf li.heute::before { background: var(--graphit); }
+.ablauf li.klein::before { width: 10px; height: 10px; left: 146px; top: 8px; border-width: 2px; }
+.ablauf .zeit { font-size: 14px; color: var(--neben); text-align: right; padding-top: 2px; }
+.ablauf .schritt { background: var(--weiss); border: 1px solid var(--linie); border-radius: 4px; padding: 20px 24px; }
+.ablauf li.klein .schritt { padding: 12px 24px; }
+.ablauf .schritt h3 { margin: 0 0 2px; }
+.ablauf li.klein .schritt h3 { font-size: 16px; }
+.ablauf .ort { color: var(--neben); margin: 0 0 10px; }
+.ablauf li.klein .ort { margin: 0; }
+.ablauf .schritt ul { margin: 0; padding-left: 18px; }
+.ablauf .schritt li { display: list-item; padding: 0; margin-bottom: 6px; }
+.ablauf .schritt li::before { content: none; }
+.marke { display: inline-block; font-size: 12px; font-weight: 700; background: var(--graphit); color: var(--weiss); border-radius: 99px; padding: 1px 10px; vertical-align: middle; margin-left: 6px; }
+
+@media (max-width: 860px) {
+  .sprache { grid-template-columns: 1fr; gap: 8px; }
+  .skala { display: none; }
+  .ablauf::before { left: 6px; }
+  .ablauf li { grid-template-columns: 1fr; gap: 6px; padding-left: 32px; }
+  .ablauf li::before, .ablauf li.klein::before { left: 0; }
+  .ablauf li.klein::before { left: 2px; }
+  .ablauf .zeit { text-align: left; }
+}
