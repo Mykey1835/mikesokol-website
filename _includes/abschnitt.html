@@ -7,7 +7,7 @@
       {% if a.stationen %}
       {% assign mit_wappen = a.stationen | map: "wappen" | compact %}
       <ul class="timeline{% if mit_wappen.size > 0 %} hat-wappen{% endif %}">
-        {% for st in a.stationen %}<li{% if st.wappen %} class="mit-wappen"{% endif %}>{% if st.wappen %}<img class="wappen" src="{{ st.wappen | relative_url }}" alt="Abzeichen" loading="lazy">{% endif %}<span class="when">{{ st.zeit }}</span>{% if st.einheit %}<span class="einheit">{{ st.einheit }}</span> · {% endif %}{{ st.text }}</li>
+        {% for st in a.stationen %}<li{% if st.wappen %} class="mit-wappen"{% endif %}>{% if st.wappen %}<img class="wappen" src="{{ st.wappen | relative_url }}" alt="Abzeichen" loading="lazy">{% endif %}<span class="when">{{ st.zeit }}</span>{{ st.text }}</li>
         {% endfor %}
       </ul>
       {% endif %}
