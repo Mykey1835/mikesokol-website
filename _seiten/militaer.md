@@ -15,28 +15,28 @@ abschnitte:
       Während der Kaderausbildung habe ich die Führungsausbildung der SKO (Selbst-, Sozial- und Konfliktmanagement, Kommunikation, Führen von Gruppen und Führungspersonen) abgeschlossen und bin Militärsportleiter.
     stationen:
       - zeit: "02.2027 – 06.2027 (geplant)"
-        text: Einheitskommandant in der Richtstrahl-Rekrutenschule, Ristl Schulen 62
+        text: Einheitskommandant in der Richtstrahl-Rekrutenschule, Richtstrahlschulen 62 (Ristl S 62)
         wappen: /img/wappen/ristl_s62.png
       - zeit: "heute"
-        text: Kommandant-Stellvertreter, Oberleutnant
+        text: Kommandant-Stellvertreter, Oberleutnant, Richtstrahlbataillon 17 (Ristl Bat 17)
         wappen: /img/wappen/ristl_bat17.png
       - zeit: "2026"
         text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
         wappen: /img/wappen/hka.png
       - zeit: "WK"
-        text: Transportoffizier bei den Richtstrahlpionieren
+        text: Transportoffizier bei den Richtstrahlpionieren, Richtstrahlbataillon 17 (Ristl Bat 17)
         wappen: /img/wappen/ristl_bat17.png
       - zeit: "Praktischer Dienst"
-        text: Zugführer mit 44 Unterstellten, Wangen
+        text: Zugführer mit 44 Unterstellten, Verkehrs- und Transportschulen 47 (VT S 47), Wangen
         wappen: /img/wappen/ct47.png
       - zeit: "03.2021 – 02.2022"
-        text: Offiziersschule, Bern – Beförderung zum Leutnant
+        text: Logistik-Offiziersschule 40 (Log OS 40), Bern – Beförderung zum Leutnant
         wappen: /img/wappen/log_os40.png
       - zeit: "08.2020 – 12.2020"
-        text: Unteroffiziersschule, Gradänderungsdienst zum Wachtmeister
+        text: Unteroffiziersschule, Verkehrs- und Transportschulen 47 (VT S 47) – Gradänderungsdienst zum Wachtmeister
         wappen: /img/wappen/ct47.png
       - zeit: "01.2019 – 05.2019"
-        text: Rekrutenschule als Motorfahrer, Frauenfeld
+        text: Rekrutenschule als Motorfahrer, Verkehrs- und Transportschulen 47 (VT S 47), Frauenfeld
         wappen: /img/wappen/ct47.png
     bild: /img/marsch.jpg
     bild_text: Meine Klasse der Offiziersschule auf dem 100-km-Marsch – die ersten 50 km durfte ich die Karte lesen.
