@@ -15,28 +15,36 @@ abschnitte:
       Während der Kaderausbildung habe ich die Führungsausbildung der SKO (Selbst-, Sozial- und Konfliktmanagement, Kommunikation, Führen von Gruppen und Führungspersonen) abgeschlossen und bin Militärsportleiter.
     stationen:
       - zeit: "02.2027 – 06.2027 (geplant)"
-        text: Einheitskommandant in der Richtstrahl-Rekrutenschule, Richtstrahlschulen 62 (Ristl S 62)
+        einheit: Ristl S 62
+        text: Einheitskommandant in der Richtstrahl-Rekrutenschule
         wappen: /img/wappen/ristl_s62.png
       - zeit: "heute"
-        text: Kommandant-Stellvertreter, Oberleutnant, Ristl S 62/3
+        einheit: Ristl S 62/3
+        text: Kommandant-Stellvertreter, Oberleutnant
         wappen: /img/wappen/ristl_s62.png
       - zeit: "2026"
-        text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
+        einheit: HKA
+        text: Company Level Leadership Course
         wappen: /img/wappen/hka.png
       - zeit: "WK"
-        text: Transportoffizier bei den Richtstrahlpionieren, Ristl Bat 17/4
+        einheit: Ristl Bat 17/4
+        text: Transportoffizier bei den Richtstrahlpionieren
         wappen: /img/wappen/ristl_bat17.png
       - zeit: "Praktischer Dienst"
-        text: Zugführer mit 44 Unterstellten, VT RS 47/4, Wangen
+        einheit: VT RS 47/4
+        text: Zugführer mit 44 Unterstellten, Wangen
         wappen: /img/wappen/ct47.png
       - zeit: "03.2021 – 02.2022"
-        text: Logistik-Offiziersschule 40 (Log OS 40), Bern – Beförderung zum Leutnant
+        einheit: Log OS 40
+        text: Offiziersschule, Bern – Beförderung zum Leutnant
         wappen: /img/wappen/log_os40.png
       - zeit: "08.2020 – 12.2020"
-        text: Unteroffiziersschule, VT RS 47/4 – Gradänderungsdienst zum Wachtmeister
+        einheit: VT RS 47/4
+        text: Unteroffiziersschule, Gradänderungsdienst zum Wachtmeister
         wappen: /img/wappen/ct47.png
       - zeit: "01.2019 – 05.2019"
-        text: Rekrutenschule als Motorfahrer, VT RS 47/3, Frauenfeld
+        einheit: VT RS 47/3
+        text: Rekrutenschule als Motorfahrer, Frauenfeld
         wappen: /img/wappen/ct47.png
     bild: /img/marsch.jpg
     bild_text: Meine Klasse der Offiziersschule auf dem 100-km-Marsch – die ersten 50 km durfte ich die Karte lesen.
