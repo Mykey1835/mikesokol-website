@@ -51,6 +51,8 @@ abschnitte:
         text: Leutnant
       - zeit: "08.2020 – 01.2021"
         text: Wachtmeister
-    knopf_text: Infos fürs Kader
-    knopf_link: https://army.mikesokol.ch
+      - zeit: "04.2019 – 07.2020"
+        text: Soldat
+      - zeit: "01.2019 – 03.2019"
+        text: Rekrut
 ---
