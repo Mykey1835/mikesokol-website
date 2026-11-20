@@ -17,8 +17,8 @@ abschnitte:
       Im September 2024 startete ich als Projektleiter Energiesysteme bei der SyEnergy AG. Seit Juni 2025 leite ich dort die Abteilung E-Management, die ich mit aufbauen durfte. Seit März 2023 bin ich zudem Geschäftsleiter der MMedics GmbH.
 
       Seit 2016 beschäftige ich mich intensiv mit Kryptowährungen und Blockchain-Technologie und habe mir auf diesem Gebiet fundiertes Know-how angeeignet.
-    bild: /img/studiengang.jpg
-    bild_text: Mein Studiengang (HLKS 21 Personen und GEE 8 Personen)
+    bild: /img/portrait.jpg
+    bild_text: Bei der SyEnergy AG
   - titel: Beruflicher Ablauf
     hintergrund: grau
     ablauf:
@@ -83,4 +83,6 @@ abschnitte:
         text: Sekundarschule, Horw
       - zeit: "08.2005 – 06.2011"
         text: Primarschule, Luzern und Kastanienbaum
+    bild: /img/studiengang.jpg
+    bild_text: Mein Studiengang (HLKS 21 Personen und GEE 8 Personen)
 ---
