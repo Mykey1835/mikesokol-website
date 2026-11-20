@@ -14,20 +14,21 @@ abschnitte:
 
       Während der Kaderausbildung habe ich die Führungsausbildung der SKO (Selbst-, Sozial- und Konfliktmanagement, Kommunikation, Führen von Gruppen und Führungspersonen) abgeschlossen und bin Militärsportleiter.
     stationen:
-      - zeit: "01.2019 – 05.2019"
-        text: Rekrutenschule als Motorfahrer, Frauenfeld
-      - zeit: "08.2020 – 12.2020"
-        text: Unteroffiziersschule, Gradänderungsdienst zum Wachtmeister
-      - zeit: "03.2021 – 02.2022"
-        text: Offiziersschule, Bern – Beförderung zum Leutnant
-      - zeit: "Praktischer Dienst"
-        text: Zugführer mit 44 Unterstellten, Wangen
-      - zeit: "WK"
-        text: Transportoffizier bei den Richtstrahlpionieren
-      - zeit: "2026"
-        text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
       - zeit: "heute"
         text: Kommandant-Stellvertreter, Oberleutnant
+      - zeit: "2026"
+        text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
+      - zeit: "WK"
+        text: Transportoffizier bei den Richtstrahlpionieren
+      - zeit: "Praktischer Dienst"
+        text: Zugführer mit 44 Unterstellten, Wangen
+      - zeit: "03.2021 – 02.2022"
+        text: Offiziersschule, Bern – Beförderung zum Leutnant
+      - zeit: "08.2020 – 12.2020"
+        text: Unteroffiziersschule, Gradänderungsdienst zum Wachtmeister
+      - zeit: "01.2019 – 05.2019"
+        text: Rekrutenschule als Motorfahrer, Frauenfeld
+        wappen: /img/wappen/ct47.png
     bild: /img/marsch.jpg
     bild_text: Meine Klasse der Offiziersschule auf dem 100-km-Marsch – die ersten 50 km durfte ich die Karte lesen.
     bild_2: /img/zug.jpg
@@ -35,10 +36,10 @@ abschnitte:
   - titel: Grade
     hintergrund: grau
     stationen:
-      - zeit: "08.2020 – 01.2021"
-        text: Wachtmeister
-      - zeit: "02.2021 – 04.2025"
-        text: Leutnant
       - zeit: "seit 04.2025"
         text: Oberleutnant
+      - zeit: "02.2021 – 04.2025"
+        text: Leutnant
+      - zeit: "08.2020 – 01.2021"
+        text: Wachtmeister
 ---

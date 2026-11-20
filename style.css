@@ -165,3 +165,7 @@ footer a { color: var(--neben); }
   .ablauf li.klein::before { left: 2px; }
   .ablauf .zeit { text-align: left; }
 }
+
+/* Wappen im Zeitstrahl */
+.timeline li.mit-wappen { min-height: 76px; padding-left: 90px; }
+.timeline li .wappen { position: absolute; left: 24px; top: -4px; width: 54px; height: 72px; object-fit: contain; }

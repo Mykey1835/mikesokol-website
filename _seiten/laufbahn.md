@@ -22,37 +22,6 @@ abschnitte:
   - titel: Beruflicher Ablauf
     hintergrund: grau
     ablauf:
-      - zeit: "08.2018 – 12.2021"
-        titel: Elektroinstallateur EFZ
-        ort: Maréchaux Elektro AG, Kriens · Teilzeit
-        text: |
-          - Stark- und Schwachstrominstallationen sowie Serviceaufträge
-          - Mitwirkung in Umbauprojekten, u. a. Umbau Coop Pilatusmarkt Kriens und Umbau eines Einfamilienhauses in Kastanienbaum
-          - Selbstständige Ausführung von Arbeiten zur vollen Zufriedenheit von Vorgesetzten und Kunden
-      - zeit: "seit 03.2023"
-        titel: Geschäftsleiter
-        ort: MMedics GmbH, Müllheim TG
-        art: heute
-      - zeit: "07.2023"
-        titel: Praktikum
-        ort: Hefti Hess Martignoni, Zug
-        art: Praktikum
-      - zeit: "06.2024"
-        titel: Praktikum
-        ort: Inlo AG, Horw
-        art: Praktikum
-      - zeit: "07.2024"
-        titel: Praktikum
-        ort: Hefti Hess Martignoni, Zug
-        art: Praktikum
-      - zeit: "09.2024 – 06.2025"
-        titel: Projektleiter Energiesysteme
-        ort: SyEnergy AG, Sarnen · Teilzeit
-        text: |
-          - Energiesystem-Gesamtkonzepte: PV-Anlagen, Speicherlösungen (Batterie, Wasserstoff) und Verbraucher wie HLKS, Produktion und E-Mobilität
-          - Umsetzung von Projekten wie «Energiesystem Eichli» (Speicherung, Produktion und Verbrauch von Eigenenergie) und «Energiesystem Mettelacher» (72 h Notstrom und Energiekontingentierung für 15 Wohnungen) sowie diverser Projekte von CHF 80'000 bis CHF 2.5 Mio.
-          - Definition und Umsetzung von Energielösungen sowie Planungsunterlagen nach gesetzlichen Vorschriften und Normen
-          - Selbstständige technische Abklärungen
       - zeit: "seit 06.2025"
         titel: Abteilungsleiter E-Management
         ort: SyEnergy AG, Stans
@@ -63,6 +32,37 @@ abschnitte:
           - Entwicklung und Umsetzung von Abteilungszielen mit regelmässiger Berichterstattung (Quartalsberichte) an die Geschäftsleitung
           - Mitwirkung bei Angeboten, Ausschreibungen und Lieferantenvergleichen sowie Sicherstellung der gesetzlichen, normativen und sicherheitsrelevanten Vorgaben
           - Energiesystem-Gesamtkonzepte inkl. Energiemanagement, Fördergeldanträgen und Weiterentwicklung neuer Geschäftsfelder
+      - zeit: "seit 03.2023"
+        titel: Geschäftsleiter
+        ort: MMedics GmbH, Müllheim TG
+        art: heute
+      - zeit: "09.2024 – 06.2025"
+        titel: Projektleiter Energiesysteme
+        ort: SyEnergy AG, Sarnen · Teilzeit
+        text: |
+          - Energiesystem-Gesamtkonzepte: PV-Anlagen, Speicherlösungen (Batterie, Wasserstoff) und Verbraucher wie HLKS, Produktion und E-Mobilität
+          - Umsetzung von Projekten wie «Energiesystem Eichli» (Speicherung, Produktion und Verbrauch von Eigenenergie) und «Energiesystem Mettelacher» (72 h Notstrom und Energiekontingentierung für 15 Wohnungen) sowie diverser Projekte von CHF 80'000 bis CHF 2.5 Mio.
+          - Definition und Umsetzung von Energielösungen sowie Planungsunterlagen nach gesetzlichen Vorschriften und Normen
+          - Selbstständige technische Abklärungen
+      - zeit: "07.2024"
+        titel: Praktikum
+        ort: Hefti Hess Martignoni, Zug
+        art: Praktikum
+      - zeit: "06.2024"
+        titel: Praktikum
+        ort: Inlo AG, Horw
+        art: Praktikum
+      - zeit: "07.2023"
+        titel: Praktikum
+        ort: Hefti Hess Martignoni, Zug
+        art: Praktikum
+      - zeit: "08.2018 – 12.2021"
+        titel: Elektroinstallateur EFZ
+        ort: Maréchaux Elektro AG, Kriens · Teilzeit
+        text: |
+          - Stark- und Schwachstrominstallationen sowie Serviceaufträge
+          - Mitwirkung in Umbauprojekten, u. a. Umbau Coop Pilatusmarkt Kriens und Umbau eines Einfamilienhauses in Kastanienbaum
+          - Selbstständige Ausführung von Arbeiten zur vollen Zufriedenheit von Vorgesetzten und Kunden
   - titel: Aus- und Weiterbildung
     stationen:
       - zeit: "03.2026 – 04.2026"
