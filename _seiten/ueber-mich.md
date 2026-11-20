@@ -42,6 +42,17 @@ abschnitte:
         niveau: Sehr gut
       - name: Konfliktmanagement
         niveau: Fortgeschritten
+      # Aus der Führungsausbildung (Militär / SKO)
+      - name: Selbstmanagement
+        niveau: Sehr gut
+      - name: Sozialkompetenz
+        niveau: Sehr gut
+      - name: Kommunikation
+        niveau: Sehr gut
+      - name: Führen von Gruppen
+        niveau: Sehr gut
+      - name: Führen von Führungspersonen
+        niveau: Fortgeschritten
       - name: Automatisierung
         niveau: Fortgeschritten
       - name: Ethik
