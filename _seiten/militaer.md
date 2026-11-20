@@ -19,6 +19,7 @@ abschnitte:
         wappen: /img/wappen/ristl_bat17.png
       - zeit: "2026"
         text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
+        wappen: /img/wappen/hka.png
       - zeit: "WK"
         text: Transportoffizier bei den Richtstrahlpionieren
         wappen: /img/wappen/ristl_bat17.png
