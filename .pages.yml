@@ -114,9 +114,6 @@ content:
               - name: zeit
                 label: Zeit
                 type: string
-              - name: einheit
-                label: Einheit / Kürzel (freiwillig)
-                type: string
               - name: text
                 label: Text
                 type: string
