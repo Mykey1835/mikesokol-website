@@ -15,13 +15,13 @@ abschnitte:
       Während der Kaderausbildung habe ich die Führungsausbildung der SKO (Selbst-, Sozial- und Konfliktmanagement, Kommunikation, Führen von Gruppen und Führungspersonen) abgeschlossen und bin Militärsportleiter.
     stationen:
       - zeit: "02.2027 – 06.2027 (geplant)"
-        einheit: Ristl S 62
+        einheit: Ristl S 62/3
         text: Einheitskommandant in der Richtstrahl-Rekrutenschule
         wappen: /img/wappen/ristl_s62.png
       - zeit: "heute"
-        einheit: Ristl S 62/3
+        einheit: Ristl Bat 17/4
         text: Kommandant-Stellvertreter, Oberleutnant
-        wappen: /img/wappen/ristl_s62.png
+        wappen: /img/wappen/ristl_bat17.png
       - zeit: "2026"
         einheit: HKA
         text: Company Level Leadership Course
