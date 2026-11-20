@@ -54,7 +54,7 @@ header.nav .wrap { display: flex; align-items: center; justify-content: space-be
 .hero .tagline { font-size: 20px; margin: 0 0 28px; opacity: .85; }
 .hero p { margin: 0 0 16px; opacity: .92; }
 .hero .facts { margin-top: 26px; font-size: 15px; opacity: .75; letter-spacing: .02em; }
-.hero img { width: 100%; max-width: 340px; justify-self: end; border-radius: 4px; }
+.hero img { width: 100%; max-width: 340px; justify-self: center; align-self: center; border-radius: 4px; }
 
 /* Inhalt */
 section { padding: 72px 0; }

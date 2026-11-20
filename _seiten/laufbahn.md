@@ -19,6 +19,7 @@ abschnitte:
       Seit 2016 beschäftige ich mich intensiv mit Kryptowährungen und Blockchain-Technologie und habe mir auf diesem Gebiet fundiertes Know-how angeeignet.
     bild: /img/portrait.jpg
     bild_groesse: halb
+    bild_hoehe: mitte
     bild_text: Bei der SyEnergy AG
   - titel: Beruflicher Ablauf
     hintergrund: grau
