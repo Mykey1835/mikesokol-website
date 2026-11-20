@@ -19,7 +19,7 @@ Jeder Eintrag unter `abschnitte:` ist ein Block. Alles ist freiwillig – was le
 - `titel`, `text` (Absätze mit Leerzeile trennen, Aufzählung mit `- `)
 - `hintergrund: grau`
 - `bild`, `bild_text`, `bild_2`, `bild_2_text`, `bild_seite: links`
-- `stationen` (Zeitstrahl mit `zeit`, `text` und freiwillig `wappen` – Daten immer in Anführungszeichen, z. B. `"07.2024"`; neuestes zuoberst)
+- `stationen` (Zeitstrahl mit `zeit`, `text` und freiwillig `einheit` (Kürzel) und `wappen` – Daten immer in Anführungszeichen, z. B. `"07.2024"`; neuestes zuoberst)
 - `ablauf` (Ablauf mit `zeit`, `titel`, `ort`, `text`, `art: heute` oder `art: Praktikum`; neuestes zuoberst)
 - `sprachen` / `kenntnisse` (Balken mit `name` bzw. `sprache` und `niveau`)
 - `karten` (Kästchen mit `titel`, `zeit`, `text`, `knopf_text`, `knopf_link`)
