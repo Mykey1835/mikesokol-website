@@ -18,6 +18,7 @@ abschnitte:
 
       Seit 2016 beschäftige ich mich intensiv mit Kryptowährungen und Blockchain-Technologie und habe mir auf diesem Gebiet fundiertes Know-how angeeignet.
     bild: /img/portrait.jpg
+    bild_groesse: halb
     bild_text: Bei der SyEnergy AG
   - titel: Beruflicher Ablauf
     hintergrund: grau
@@ -84,5 +85,6 @@ abschnitte:
       - zeit: "08.2005 – 06.2011"
         text: Primarschule, Luzern und Kastanienbaum
     bild: /img/studiengang.jpg
+    bild_hoehe: mitte
     bild_text: Mein Studiengang (HLKS 21 Personen und GEE 8 Personen)
 ---

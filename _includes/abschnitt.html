@@ -22,9 +22,9 @@
     {% endcapture %}
 
     {% if a.bild %}
-    <div class="split{% if a.bild_seite == 'links' %} rev{% endif %}">
+    <div class="split{% if a.bild_seite == 'links' %} rev{% endif %}{% if a.bild_hoehe == 'mitte' %} mitte{% endif %}">
       <div class="col-text">{{ inhalt }}</div>
-      <div class="stack">
+      <div class="stack{% if a.bild_groesse == 'halb' %} halb{% endif %}">
         <figure>
           <img src="{{ a.bild | relative_url }}" alt="{{ a.bild_text | default: a.titel }}" loading="lazy">
           {% if a.bild_text %}<figcaption>{{ a.bild_text }}</figcaption>{% endif %}

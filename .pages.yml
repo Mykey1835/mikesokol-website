@@ -96,6 +96,16 @@ content:
             type: select
             options:
               values: [rechts, links]
+          - name: bild_groesse
+            label: Bildgrösse
+            type: select
+            options:
+              values: [normal, halb]
+          - name: bild_hoehe
+            label: Bild senkrecht ausrichten
+            type: select
+            options:
+              values: [oben, mitte]
           - name: stationen
             label: Zeitstrahl (neuestes zuoberst)
             type: object

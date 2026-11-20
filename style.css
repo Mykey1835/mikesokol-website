@@ -169,3 +169,8 @@ footer a { color: var(--neben); }
 /* Wappen im Zeitstrahl */
 .timeline.hat-wappen li { padding-left: 58px; }
 .timeline li .wappen { position: absolute; left: 22px; top: 3px; width: 26px; height: 36px; object-fit: contain; }
+
+/* Bildoptionen */
+.split.mitte { align-items: center; }
+.stack.halb { max-width: 50%; justify-self: center; }
+@media (max-width: 860px) { .stack.halb { max-width: 60%; justify-self: start; } }
