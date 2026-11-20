@@ -16,15 +16,18 @@ abschnitte:
     stationen:
       - zeit: "heute"
         text: Kommandant-Stellvertreter, Oberleutnant
+        wappen: /img/wappen/ristl_bat17.png
       - zeit: "2026"
         text: Company Level Leadership Course, Höhere Kaderausbildung der Armee (HKA)
       - zeit: "WK"
         text: Transportoffizier bei den Richtstrahlpionieren
+        wappen: /img/wappen/ristl_bat17.png
       - zeit: "Praktischer Dienst"
         text: Zugführer mit 44 Unterstellten, Wangen
         wappen: /img/wappen/ct47.png
       - zeit: "03.2021 – 02.2022"
         text: Offiziersschule, Bern – Beförderung zum Leutnant
+        wappen: /img/wappen/log_os40.png
       - zeit: "08.2020 – 12.2020"
         text: Unteroffiziersschule, Gradänderungsdienst zum Wachtmeister
         wappen: /img/wappen/ct47.png
