@@ -10,10 +10,13 @@ abschnitte:
     text: |
       Nach der Lehre absolvierte ich die Rekrutenschule als Motorfahrer in Frauenfeld und wurde für eine Kaderposition vorgeschlagen. Nach der Berufsmaturität folgten die Unteroffiziersschule mit Gradänderungsdienst zum Wachtmeister und die Offiziersschule in Bern, wo ich nach 15 Wochen zum Leutnant befördert wurde.
 
-      Im praktischen Dienst in Wangen führte ich meinen Zug mit 44 Unterstellten. Im WK war ich zu Beginn bei den Richtstrahlpionieren als Transportoffizier eingeteilt. Nach zwei WK wurde ich zum Kommandant-Stellvertreter ernannt und gleichzeitig zum Oberleutnant befördert.
+      Im praktischen Dienst in Wangen führte ich meinen Zug mit 44 Unterstellten. Im WK war ich zu Beginn bei den Richtstrahlpionieren als Transportoffizier eingeteilt. Nach zwei WK wurde ich zum Kommandant-Stellvertreter ernannt und gleichzeitig zum Oberleutnant befördert. Von Februar bis Juni 2027 leiste ich Dienst in der Rekrutenschule der Richtstrahlschulen 62 und gebe meine Erfahrung an die nächste Generation weiter.
 
       Während der Kaderausbildung habe ich die Führungsausbildung der SKO (Selbst-, Sozial- und Konfliktmanagement, Kommunikation, Führen von Gruppen und Führungspersonen) abgeschlossen und bin Militärsportleiter.
     stationen:
+      - zeit: "02.2027 – 06.2027 (geplant)"
+        text: Dienst in der Richtstrahl-Rekrutenschule, Ristl Schulen 62
+        wappen: /img/wappen/ristl_s62.png
       - zeit: "heute"
         text: Kommandant-Stellvertreter, Oberleutnant
         wappen: /img/wappen/ristl_bat17.png
