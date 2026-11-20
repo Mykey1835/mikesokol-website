@@ -7,7 +7,7 @@ im_menue: true
 beschreibung: Mike Sokol – Abteilungsleiter E-Management, Geschäftsleiter, Unternehmer und Offizier aus Hildisrieden.
 kopf_titel: Mike Sokol
 untertitel: Jung, dynamisch & für Sie da
-kopf_bild: /img/portrait.jpg
+kopf_bild: /img/portrait_studio.jpg
 kopf_bild_text: Porträt von Mike Sokol
 kopf_text: |
   Es gibt keine zweite Chance für den ersten Eindruck. Schön, dass Sie sich die Zeit nehmen, zu erfahren, welches Potenzial in mir steckt.
