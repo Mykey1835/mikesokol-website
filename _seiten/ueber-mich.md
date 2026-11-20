@@ -75,5 +75,7 @@ abschnitte:
       - Abschlussklasse Gebäudetechnik 2025, Mitglied
       - Vereinsrevisor der Abschlussklasse Gebäudetechnik 2025
     bild: /img/freizeit.jpg
+    bild_groesse: halb
+    bild_hoehe: mitte
     bild_text: In der Freizeit
 ---
