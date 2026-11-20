@@ -48,7 +48,7 @@ abschnitte:
       - name: Sozialkompetenz
         niveau: Sehr gut
       - name: Kommunikation
-        niveau: Sehr gut
+        niveau: Fortgeschritten
       - name: Führen von Gruppen
         niveau: Sehr gut
       - name: Führen von Führungspersonen
