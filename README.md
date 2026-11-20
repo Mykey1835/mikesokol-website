@@ -29,6 +29,10 @@ Jeder Eintrag unter `abschnitte:` ist ein Block. Alles ist freiwillig – was le
 
 Neuer Reiter: Datei in `_seiten/` kopieren, `titel` und `menue_position` anpassen.
 
+## Bearbeiten im Browser
+
+Über https://mikesokol.ch/login (leitet zu Pages CMS weiter) mit dem GitHub-Konto anmelden. Die Formulare sind in `.pages.yml` festgelegt. Gespeicherte Änderungen sind nach 1–2 Minuten online.
+
 ## Lokal ansehen
 
 ```bash

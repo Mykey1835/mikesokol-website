@@ -22,10 +22,12 @@ abschnitte:
         text: Transportoffizier bei den Richtstrahlpionieren
       - zeit: "Praktischer Dienst"
         text: Zugführer mit 44 Unterstellten, Wangen
+        wappen: /img/wappen/ct47.png
       - zeit: "03.2021 – 02.2022"
         text: Offiziersschule, Bern – Beförderung zum Leutnant
       - zeit: "08.2020 – 12.2020"
         text: Unteroffiziersschule, Gradänderungsdienst zum Wachtmeister
+        wappen: /img/wappen/ct47.png
       - zeit: "01.2019 – 05.2019"
         text: Rekrutenschule als Motorfahrer, Frauenfeld
         wappen: /img/wappen/ct47.png

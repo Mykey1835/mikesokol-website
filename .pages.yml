@@ -1,0 +1,219 @@
+# Einstellungen für Pages CMS (https://pagescms.org)
+# Anmelden über https://mikesokol.ch/login
+
+media:
+  input: img
+  output: /img
+
+content:
+  - name: seiten
+    label: Seiten (Reiter)
+    type: collection
+    path: _seiten
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: titel
+      fields: [titel, menue_position, im_menue]
+      sort: [menue_position]
+      default:
+        sort: menue_position
+        order: asc
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+        default: default
+      - name: titel
+        label: Titel (Name im Reiter)
+        type: string
+        required: true
+      - name: untertitel
+        label: Untertitel
+        type: string
+      - name: menue_position
+        label: Position im Menü (1 = ganz links)
+        type: number
+      - name: im_menue
+        label: Im Menü anzeigen
+        type: boolean
+        default: true
+      - name: beschreibung
+        label: Beschreibung für Google
+        type: string
+      - name: permalink
+        label: Adresse (nur Startseite = /, sonst leer lassen)
+        type: string
+      - name: kopf_titel
+        label: "Startbereich: grosser Titel"
+        type: string
+      - name: kopf_bild
+        label: "Startbereich: Porträt (nur Startseite)"
+        type: image
+      - name: kopf_bild_text
+        label: "Startbereich: Bildbeschreibung"
+        type: string
+      - name: kopf_text
+        label: "Startbereich: Text"
+        type: text
+      - name: kopf_fakten
+        label: "Startbereich: Fakten-Zeile"
+        type: string
+      - name: abschnitte
+        label: Abschnitte
+        type: object
+        list: true
+        fields:
+          - name: titel
+            label: Titel
+            type: string
+          - name: sichtbar
+            label: Sichtbar
+            type: boolean
+            default: true
+          - name: hintergrund
+            label: Hintergrund
+            type: select
+            options:
+              values: [weiss, grau]
+          - name: text
+            label: Text (Leerzeile = neuer Absatz, «- » = Aufzählung)
+            type: text
+          - name: bild
+            label: Bild
+            type: image
+          - name: bild_text
+            label: Bildunterschrift
+            type: string
+          - name: bild_2
+            label: Zweites Bild
+            type: image
+          - name: bild_2_text
+            label: Bildunterschrift zweites Bild
+            type: string
+          - name: bild_seite
+            label: Bild auf welcher Seite
+            type: select
+            options:
+              values: [rechts, links]
+          - name: stationen
+            label: Zeitstrahl (neuestes zuoberst)
+            type: object
+            list: true
+            fields:
+              - name: zeit
+                label: Zeit
+                type: string
+              - name: text
+                label: Text
+                type: string
+              - name: wappen
+                label: Wappen (freiwillig)
+                type: image
+          - name: ablauf
+            label: Ablauf mit Kästchen (neuestes zuoberst)
+            type: object
+            list: true
+            fields:
+              - name: zeit
+                label: Zeit
+                type: string
+              - name: titel
+                label: Titel
+                type: string
+              - name: ort
+                label: Firma, Ort
+                type: string
+              - name: art
+                label: Art
+                type: select
+                options:
+                  values: [heute, Praktikum]
+              - name: text
+                label: Text («- » = Aufzählung)
+                type: text
+              - name: sichtbar
+                label: Sichtbar
+                type: boolean
+                default: true
+          - name: sprachen
+            label: Sprachen mit Balken
+            type: object
+            list: true
+            fields:
+              - name: sprache
+                label: Sprache
+                type: string
+              - name: niveau
+                label: Stufe
+                type: select
+                options:
+                  values: [Muttersprache, C2, C1, B2, B1, A2, A1]
+              - name: hinweis
+                label: Hinweis (freiwillig)
+                type: string
+          - name: kenntnisse
+            label: Kenntnisse mit Balken
+            type: object
+            list: true
+            fields:
+              - name: name
+                label: Kenntnis
+                type: string
+              - name: niveau
+                label: Stufe
+                type: select
+                options:
+                  values: [Experte, Sehr gut, Fortgeschritten, Grundkenntnisse, Anfänger]
+              - name: hinweis
+                label: Hinweis (freiwillig)
+                type: string
+          - name: karten
+            label: Kästchen
+            type: object
+            list: true
+            fields:
+              - name: titel
+                label: Titel
+                type: string
+              - name: zeit
+                label: Zeile unter dem Titel
+                type: string
+              - name: text
+                label: Text («- » = Aufzählung)
+                type: text
+              - name: knopf_text
+                label: Knopf-Text
+                type: string
+              - name: knopf_link
+                label: Knopf-Link
+                type: string
+              - name: sichtbar
+                label: Sichtbar
+                type: boolean
+                default: true
+          - name: stichworte
+            label: Stichworte
+            type: string
+            list: true
+          - name: knopf_text
+            label: Knopf-Text
+            type: string
+          - name: knopf_link
+            label: Knopf-Link
+            type: string
+
+  - name: einstellungen
+    label: Einstellungen
+    type: file
+    path: _data/einstellungen.yml
+    fields:
+      - name: name
+        label: Name
+        type: string
+      - name: linkedin
+        label: LinkedIn-Link
+        type: string
+      - name: fusszeile
+        label: Fusszeile
+        type: string
