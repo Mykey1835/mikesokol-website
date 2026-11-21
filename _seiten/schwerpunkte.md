@@ -18,31 +18,34 @@ abschnitte:
   - titel: Profil
     hintergrund: grau
     karten:
-      - titel: Qualifikationen
+      - titel: Ausbildung
         text: |
-          - BSc in Gebäudetechnik (Gebäude-Elektroengineering)
+          - BSc in Gebäudetechnik (Gebäude-Elektroengineering), HSLU
           - CAS in Decisive Leadership, Universität Luzern
-          - Company Level Leadership Course, Höhere Kaderausbildung der Armee
-          - Fachperson Äusserer Blitzschutz, VKF
-          - Abgeschlossene Lehre als Elektroinstallateur EFZ
           - Technische Berufsmaturität
-          - Führungsausbildung in Theorie und Praxis: Selbst-, Sozial-, Konflikt- und Kommunikationsmanagement sowie Führen von Gruppen und Führungspersonen
-          - Fachwissen in Blockchain-Technologie, Kryptowährungen, NFTs und Metaverse
-          - Vielseitige Erfahrung am Bau: Elektro, Planung, Design, Innenarchitektur, Raumaufteilung
-          - Verschiedene Englischkurse mit Diplom
+          - Lehre als Elektroinstallateur EFZ
+      - titel: Führung
+        text: |
+          - Company Level Leadership Course, Höhere Kaderausbildung der Armee
+          - Führungsausbildung der SKO: Selbst-, Sozial-, Konflikt- und Kommunikationsmanagement, Führen von Gruppen und Führungspersonen
           - Präsentationsexperte
-      - titel: Persönliche Eigenschaften
+      - titel: Fachwissen
         text: |
-          - Selbstständig und zuverlässig
-          - Belastbar und flexibel
-          - Teamfähig
-          - Helfe anderen, besser zu werden
-          - Lösungsorientiert, prozessoptimierende Denkweise
-          - Offen für Neues, bereit zur Weiterbildung
-          - Ein Leader
-      - titel: Ziele
-        text: |
-          Ich optimiere gerne so, dass mit minimalem Aufwand der maximale Ertrag entsteht, und bringe die Menschen in meinem Umfeld weiter – ein typischer Querdenker, der dennoch den klassischen Werdegang geht.
+          - Fachperson Äusserer Blitzschutz, VKF
+          - Blockchain, Kryptowährungen, NFTs und Metaverse
+          - Erfahrung am Bau: Elektro, Planung, Design, Innenarchitektur
+          - Englischkurse mit Diplom
+  - titel: Persönlichkeit und Ziele
+    text: |
+      > Ich optimiere gerne so, dass mit minimalem Aufwand der maximale Ertrag entsteht, und bringe die Menschen in meinem Umfeld weiter – ein typischer Querdenker, der dennoch den klassischen Werdegang geht.
 
-          Für meine berufliche Zukunft wünsche ich mir eine Aufgabe, die mir Freude bereitet, mir entspricht und in der ich meine Stärken, Fähigkeiten und Erfahrungen einbringen kann. Ich möchte Verantwortung übernehmen und Herausforderungen in meinem Bereich erfolgreich meistern.
+      Für meine berufliche Zukunft wünsche ich mir eine Aufgabe, die mir Freude bereitet, mir entspricht und in der ich meine Stärken, Fähigkeiten und Erfahrungen einbringen kann. Ich möchte Verantwortung übernehmen und Herausforderungen in meinem Bereich erfolgreich meistern.
+    stichworte:
+      - Selbstständig und zuverlässig
+      - Belastbar und flexibel
+      - Teamfähig
+      - Helfe anderen, besser zu werden
+      - Lösungsorientiert, prozessoptimierend
+      - Offen für Neues
+      - Ein Leader
 ---
