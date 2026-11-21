@@ -87,8 +87,13 @@ figcaption { font-size: 14px; color: var(--neben); margin-top: 8px; }
 .card .when { font-size: 14px; color: var(--neben); margin: -6px 0 12px; }
 .card .btn { margin-top: auto; align-self: flex-start; }
 .card > :last-child { margin-bottom: 0; }
-.card ul { margin: 0; padding-left: 18px; }
-.card li { margin-bottom: 8px; }
+.card { border-top: 3px solid var(--graphit); }
+.card ul { margin: 0; padding: 0; list-style: none; }
+.card li { position: relative; padding-left: 26px; margin-bottom: 12px; line-height: 1.5; }
+.card li::before { content: "✓"; position: absolute; left: 0; top: 0; font-weight: 700; color: var(--graphit); }
+.text blockquote { margin: 0 0 24px; padding: 4px 0 4px 20px; border-left: 3px solid var(--graphit); font-size: 20px; line-height: 1.5; font-style: italic; }
+.text blockquote p { margin: 0; }
+.text + .tags { margin-top: 20px; }
 .tags { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 8px 0 0; list-style: none; }
 .tags li { border: 1px solid var(--graphit); border-radius: 99px; padding: 4px 14px; font-size: 15px; background: var(--weiss); }
 
